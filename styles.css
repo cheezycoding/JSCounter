@@ -1,0 +1,64 @@
+@font-face {
+    font-family: club;
+    src: url(The27Club-8KrB.ttf);
+}
+@font-face {
+    font-family: Gidole;
+    src: url(Gidole-Regular.ttf);
+}
+
+#jsCounter {
+    color: black;
+    text-align: center;
+    font-size: 40px;
+    margin-top: 50px;
+    font-family: club;
+    color: white;
+    letter-spacing: 1.5px;
+}
+
+* {
+    background-color: rgb(19, 19, 19);
+    color: white;
+    box-sizing: border-box;
+}
+
+#calculation {
+    border: 1px solid white;
+    width: 50%;
+    max-width: 800px;
+    min-width: 400px;
+    margin: 50px auto;
+    height: 500px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+
+.children { 
+    font-size: 60px; 
+    font-family: gidole;
+}
+
+.operators:hover { 
+    cursor: pointer;
+}
+
+.operators { 
+    -webkit-tap-highlight-color: rgba(255, 255, 255, 0);
+  -webkit-tap-highlight-color: transparent;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+#add { 
+    color: rgb(81, 215, 130)
+}
+
+#subtract { 
+    color: rgb(244, 71, 71)
+}
